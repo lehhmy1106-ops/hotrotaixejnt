@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LINK TÀI XẾ</title>
+  <style>
+    :root{--bg:#f7f8fb;--card:#fff;--accent:#0b67ff;--muted:#6b7280}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#0f172a;background:linear-gradient(180deg,var(--bg),#eef2ff);}
+    .wrap{max-width:900px;margin:24px auto;padding:18px}
+    header{display:flex;align-items:center;gap:12px}
+    h1{font-size:20px;margin:0}
+    .note{color:var(--muted);font-size:13px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:14px}
+    .card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,0.06);}
+    a.btn{display:block;text-decoration:none;padding:8px 10px;border-radius:8px;background:linear-gradient(90deg,var(--accent),#3aa0ff);color:#fff;font-weight:600;text-align:center}
+    .link-list a{display:block;padding:8px 6px;border-radius:6px;text-decoration:none;color:#0b1220;background:linear-gradient(180deg,rgba(11,103,255,0.03),transparent);margin-bottom:6px}
+    .section-title{font-size:13px;color:var(--muted);margin-bottom:8px}
+    .contacts .row{display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px dashed #eef2ff}
+    .call{background:#0b67ff;color:#fff;padding:6px 10px;border-radius:8px;text-decoration:none}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:520px){.wrap{margin:8px;padding:12px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <h1>LINK TÀI XẾ</h1>
+        <div class="note">Trang nội bộ — liên kết nhanh cho tài xế</div>
+      </div>
+      <div style="margin-left:auto">
+        <a class="btn" href="#apps">Ứng dụng</a>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="workLinks">
+      <div id="workLinks" class="section-title">Công việc nội bộ ▶</div>
+      <div class="link-list">
+        <a href="https://jntexpress.vn" target="_blank">CHẤM CÔNG CRM</a>
+        <a href="https://jtexpress.sg.feishu.cn" target="_blank">BÁO CÁO HÀNH TRÌNH</a>
+        <a href="https://jtexpress.sg.feishu.cn" target="_blank">ĐIỀN THÔNG TIN TĂNG CA</a>
+        <a href="https://jtexpress.sg.feishu.cn" target="_blank">ĐĂNG KÍ NGHỈ PHÉP</a>
+        <a href="https://jtexpress.sg.feishu.cn" target="_blank">KIỂM TRA XE HẰNG NGÀY</a>
+        <a href="https://driver.jtexpress.vn" target="_blank">APP NHIỆM VỤ</a>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:12px">
+      <div class="section-title">Group Zalo ▶</div>
+      <div class="grid">
+        <a class="btn" href="https://zalo.me" target="_blank">Nhóm báo cáo nội thành</a>
+        <a class="btn" href="https://zalo.me" target="_blank">Nhóm bất thường</a>
+        <a class="btn" href="https://zalo.me" target="_blank">Nhóm thông báo tài xế</a>
+        <a class="btn" href="https://zalo.me" target="_blank">Nhóm đổ dầu</a>
+      </div>
+    </section>
+
+    <section class="card contacts" style="margin-top:12px">
+      <div class="section-title">Liên hệ hỗ trợ ▶</div>
+      <div class="row"><div>Giang Nguyễn - Đội trưởng</div><a class="call" href="tel:+84">GỌI</a></div>
+      <div class="row"><div>Trí Lê - Đội trưởng ca ngày</div><a class="call" href="tel:+84">GỌI</a></div>
+      <div class="row"><div>Hoàng Trần - Đội trưởng ca đêm</div><a class="call" href="tel:+84">GỌI</a></div>
+      <div class="row"><div>Hoàng Trung - Bảo trì (Thaco, Isuzu)</div><a class="call" href="tel:+84">GỌI</a></div>
+      <div class="row"><div>Thanh Liêm - Bảo trì (Jac, Đô Thành)</div><a class="call" href="tel:+84">GỌI</a></div>
+      <div class="row"><div>Quốc Thái - Điều phối xe 5T - 8T</div><a class="call" href="tel:+84">GỌI</a></div>
+    </section>
+
+    <section class="card" style="margin-top:12px">
+      <div class="section-title">Địa chỉ Google Map ▶</div>
+      <div class="grid">
+        <a class="btn" href="https://maps.app.goo.gl" target="_blank">GW0</a>
+        <a class="btn" href="https://maps.app.goo.gl" target="_blank">GW3</a>
+        <a class="btn" href="https://maps.google.com" target="_blank">GW4</a>
+        <a class="btn" href="https://maps.google.com" target="_blank">TopGia</a>
+      </div>
+    </section>
+
+    <section id="apps" class="card" style="margin-top:12px">
+      <div class="section-title">Ứng dụng ▶</div>
+      <div class="grid">
+        <a class="btn" href="https://play.google.com/store" target="_blank">App Nhiệm vụ (Android)</a>
+        <a class="btn" href="https://apps.apple.com" target="_blank">App Nhiệm vụ (iOS)</a>
+        <a class="btn" href="https://play.google.com/store" target="_blank">Fast Business</a>
+        <a class="btn" href="https://play.google.com/store" target="_blank">Quản lý thời gian lái xe</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 — Trang này chỉ dành cho nội bộ tài xế
+    </footer>
+  </main>
+</body>
+</html>
